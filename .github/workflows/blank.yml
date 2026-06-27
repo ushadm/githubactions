@@ -2,7 +2,7 @@ name: CI-WORKFLOW
 on: workflow_dispatch
 
 jobs:
-  buil-test:
+  build-test:
     runs-on: ubuntu-22.04
     steps:
       - name: checkout
